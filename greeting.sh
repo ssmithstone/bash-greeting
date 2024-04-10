@@ -1,6 +1,5 @@
 #!/bin/bash
-
-name="Luke Skywalker"
+name=${1:-"[Luke Skywalker]"}
 date_now=$(date)
 echo "Hello, ${name}!"
 printf "Hello %s!\n" "${name}"
